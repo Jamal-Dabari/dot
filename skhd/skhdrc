@@ -1,0 +1,13 @@
+cmd - 1 : asascript ~/.config/skhd/iterm.scpt || open -na iTerm
+cmd - 2 : asascript ~/.config/skhd/safari.scpt || open -na safari
+
+
+alt - l : yabai -m window --swap west
+alt - j : yabai -m window --swap south
+alt - k : yabai -m window --swap north
+alt - h : yabai -m window --swap east
+
+cmd - e : yabai -m space --toggle show-desktop
+
+
+
