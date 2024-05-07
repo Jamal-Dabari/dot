@@ -57,6 +57,9 @@ yabai -m rule --add app="^/Applications/iTerm.app/Contents/MacOS/iTerm2 $" stick
 yabai -m space --create
 yabai -m space --destroy
 
+yabai -m space --focus prev
+yabai -m space --focus next
+
 
 defaults write com.apple.finder DisableAllAnimations -bool true
 killall Finder # or logout and login
